@@ -1,4 +1,4 @@
-/* //? Sual 1
+//? Sual 1
 const sentence = ["sense", "make", "all", "will", "This"];
 function reverseArray() {
   return sentence.reverse();
@@ -14,9 +14,9 @@ function greetAliens() {
     );
   }
 }
-greetAliens(); */
+greetAliens();
 
-/* //? Sual 3
+//? Sual 3
 const coolStuff = ["gameboys","skateboards","backwards hats","my room","temporary tattoos"]
 const myStuff = ["sweaters","skateboards","family-night","my room"]
 function justCoolStuff() {
@@ -28,7 +28,7 @@ function justCoolStuff() {
         }
     }
 }
-justCoolStuff() */
+justCoolStuff()
 
 //? Sual 4
 const meal = [
@@ -44,13 +44,6 @@ const dinner = [
   { name: "bun", source: "plant" },
 ];
 function isTheDinnerVegan(dinner) {
-    // for(let i = 0; i < dinner.length; i++) {
-    //     if (dinner[i].source !== "plant") {
-    //         return false; 
-    //     }
-    // }
-    // return true; 
-
   let element = dinner.find(item=>{
         return item.source !== 'plant'
     })
